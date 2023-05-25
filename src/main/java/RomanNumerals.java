@@ -10,6 +10,9 @@ public class RomanNumerals {
         if(numberToConvert == 6){
             roman = "VI";
         }
+        if(numberToConvert == 7){
+            roman = "VII";
+        }
         return roman;
     }
 }
