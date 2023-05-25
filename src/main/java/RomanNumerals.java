@@ -3,7 +3,7 @@ public class RomanNumerals {
         String roman = "";
 
         for (NumeralToRoman decimalToRoman : NumeralToRoman.values()) {
-            if(numberToConvert >= decimalToRoman.decimal){
+            while(numberToConvert >= decimalToRoman.decimal){
                 roman += decimalToRoman.roman;
                 numberToConvert -= decimalToRoman.decimal;
             }
