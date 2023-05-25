@@ -24,7 +24,8 @@ public class RomanNumeralsGeneratorShould {
             "14, XIV",
             "15, XV",
             "16, XVI",
-            "17, XVII"
+            "17, XVII",
+            "18, XVIII"
     })
     void convert_number_into_roman(int numberToConvert, String roman){
         RomanNumerals romanNumerals = new RomanNumerals();
