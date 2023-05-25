@@ -4,17 +4,8 @@ public class RomanNumerals {
         if(numberToConvert == 4){
             roman = "IV";
         }
-        if(numberToConvert == 5){
-            roman = "V";
-        }
-        if(numberToConvert == 6){
-            roman = "VI";
-        }
-        if(numberToConvert == 7){
-            roman = "VII";
-        }
-        if(numberToConvert == 8){
-            roman = "VIII";
+        if(numberToConvert >= 5){
+            roman = "V" + "I".repeat(numberToConvert-5);
         }
         return roman;
     }
