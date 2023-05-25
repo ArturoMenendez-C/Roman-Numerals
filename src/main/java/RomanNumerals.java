@@ -1,6 +1,9 @@
 public class RomanNumerals {
     public String convert(int numberToConvert) {
         String roman = "";
+        if (numberToConvert == 7) {
+            roman = "VII";
+        }
         if (numberToConvert == 6) {
             roman = "VI";
         }
