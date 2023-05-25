@@ -1,8 +1,12 @@
 public class RomanNumerals {
     public String convert(int numberToConvert) {
+        String roman = "";
         if(numberToConvert == 5){
-            return "V";
+            roman = "V";
         }
-        return "I".repeat(numberToConvert);
+        if(numberToConvert <= 3){
+            roman = "I".repeat(numberToConvert);
+        }
+        return roman;
     }
 }
