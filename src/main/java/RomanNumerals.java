@@ -25,6 +25,9 @@ public class RomanNumerals {
         if(numberToConvert == 17){
             roman = "XVII";
         }
+        if(numberToConvert == 18){
+            roman = "XVIII";
+        }
         return roman;
     }
 }
