@@ -10,6 +10,9 @@ public class RomanNumerals {
         if(numberToConvert == 9){
             roman = "IX";
         }
+        if(numberToConvert == 10){
+            roman = "X";
+        }
         return roman;
     }
 }
