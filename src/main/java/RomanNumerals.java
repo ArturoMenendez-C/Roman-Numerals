@@ -1,20 +1,13 @@
 public class RomanNumerals {
     public String convert(int numberToConvert) {
         String roman = "";
-        if (numberToConvert == 8) {
-            roman = "VIII";
-        }
-        if (numberToConvert == 7) {
-            roman = "VII";
-        }
-        if (numberToConvert == 6) {
-            roman = "VI";
-        }
-        if (numberToConvert == 5) {
+
+        if (numberToConvert >= 5) {
             roman = "V";
+            numberToConvert -= 5;
         }
         if (numberToConvert <= 3) {
-            roman = "I".repeat(numberToConvert);
+            roman += "I".repeat(numberToConvert);
         }
         return roman;
     }
