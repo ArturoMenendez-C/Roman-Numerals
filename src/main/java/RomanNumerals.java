@@ -4,6 +4,9 @@ public class RomanNumerals {
         if(numberToConvert == 4){
             roman = "IV";
         }
+        if(numberToConvert == 5){
+            roman = "V";
+        }
         return roman;
     }
 }
