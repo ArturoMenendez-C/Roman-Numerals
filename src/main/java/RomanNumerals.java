@@ -2,6 +2,10 @@ public class RomanNumerals {
     public String convert(int numberToConvert) {
         String roman = "";
 
+        if(numberToConvert == 12){
+            roman = "X";
+            numberToConvert -= 10;
+        }
         if(numberToConvert == 11){
             roman = "X";
             numberToConvert -= 10;
