@@ -7,6 +7,9 @@ public class RomanNumerals {
         if(numberToConvert >= 5){
             roman = "V" + "I".repeat(numberToConvert-5);
         }
+        if(numberToConvert == 9){
+            roman = "IX";
+        }
         return roman;
     }
 }
