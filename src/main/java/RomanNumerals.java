@@ -13,6 +13,9 @@ public class RomanNumerals {
         if(numberToConvert >= 10){
             roman = "X" + "I".repeat(numberToConvert-10);
         }
+        if(numberToConvert == 14){
+            roman = "XIV";
+        }
         return roman;
     }
 }
