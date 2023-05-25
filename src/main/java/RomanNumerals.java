@@ -16,6 +16,9 @@ public class RomanNumerals {
         if(numberToConvert == 11){
             roman = "XI";
         }
+        if(numberToConvert == 12){
+            roman = "XII";
+        }
         return roman;
     }
 }
