@@ -10,17 +10,8 @@ public class RomanNumerals {
         if(numberToConvert == 9){
             roman = "IX";
         }
-        if(numberToConvert == 10){
-            roman = "X";
-        }
-        if(numberToConvert == 11){
-            roman = "XI";
-        }
-        if(numberToConvert == 12){
-            roman = "XII";
-        }
-        if(numberToConvert == 13){
-            roman = "XIII";
+        if(numberToConvert >= 10){
+            roman = "X" + "I".repeat(numberToConvert-10);
         }
         return roman;
     }
