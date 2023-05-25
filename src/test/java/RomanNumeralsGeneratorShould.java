@@ -24,4 +24,14 @@ public class RomanNumeralsGeneratorShould {
         String roman = "II";
         assertEquals(roman,numberToRoman);
     }
+    @Test
+    void convert_three_into_III(){
+        int numberToConvert = 3;
+        RomanNumerals romanNumerals = new RomanNumerals();
+
+        String numberToRoman = romanNumerals.convert(numberToConvert);
+
+        String roman = "III";
+        assertEquals(roman,numberToRoman);
+    }
 }
