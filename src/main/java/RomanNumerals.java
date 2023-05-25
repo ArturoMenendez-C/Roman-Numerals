@@ -3,6 +3,9 @@ public class RomanNumerals {
         if(numberToConvert == 1) {
             return "I";
         }
+        if(numberToConvert == 2) {
+            return "II";
+        }
         return null;
     }
 }
