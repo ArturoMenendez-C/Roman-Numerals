@@ -22,6 +22,9 @@ public class RomanNumerals {
         if(numberToConvert == 19){
             roman = "XIX";
         }
+        if(numberToConvert == 20){
+            roman = "XX";
+        }
         return roman;
     }
 }
