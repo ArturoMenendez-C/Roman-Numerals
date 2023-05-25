@@ -11,6 +11,7 @@ public class RomanNumeralsGeneratorShould {
             "1, I",
             "2, II",
             "3, III",
+            "4, IV"
     })
     void convert_number_into_roman(int numberToConvert, String roman){
         RomanNumerals romanNumerals = new RomanNumerals();
