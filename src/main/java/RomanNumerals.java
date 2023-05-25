@@ -16,18 +16,10 @@ public class RomanNumerals {
         if(numberToConvert == 14){
             roman = "XIV";
         }
-        if(numberToConvert == 15){
-            roman = "XV";
+        if(numberToConvert >= 15){
+            roman = "XV" + "I".repeat(numberToConvert-15);
         }
-        if(numberToConvert == 16){
-            roman = "XVI";
-        }
-        if(numberToConvert == 17){
-            roman = "XVII";
-        }
-        if(numberToConvert == 18){
-            roman = "XVIII";
-        }
+
         return roman;
     }
 }
