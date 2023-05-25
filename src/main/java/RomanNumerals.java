@@ -13,6 +13,9 @@ public class RomanNumerals {
         if(numberToConvert == 7){
             roman = "VII";
         }
+        if(numberToConvert == 8){
+            roman = "VIII";
+        }
         return roman;
     }
 }
