@@ -1,8 +1,9 @@
 public class RomanNumerals {
     public String convert(int numberToConvert) {
+        String roman = "I".repeat(numberToConvert);
         if(numberToConvert == 4){
-            return "IV";
+            roman = "IV";
         }
-        return "I".repeat(numberToConvert);
+        return roman;
     }
 }
